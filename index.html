@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobConnect - Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>💼 JobConnect</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#jobs">Jobs</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Find Your Dream Job</h2>
+    <p>Search for jobs and start your career journey.</p>
+
+    <input type="text" id="searchJob" placeholder="Search job title...">
+    <button onclick="searchJobs()">Search Jobs</button>
+</section>
+
+<section id="jobs">
+    <h2>Available Jobs</h2>
+
+    <div class="jobs">
+
+        <div class="job">
+            <h3>💻 Web Developer</h3>
+            <p>Company: TechSoft</p>
+            <p>Location: Chennai</p>
+            <p>Salary: ₹4 - ₹7 LPA</p>
+            <button onclick="applyJob('Web Developer')">Apply Now</button>
+        </div>
+
+        <div class="job">
+            <h3>📊 Data Analyst</h3>
+            <p>Company: DataWorks</p>
+            <p>Location: Bangalore</p>
+            <p>Salary: ₹5 - ₹8 LPA</p>
+            <button onclick="applyJob('Data Analyst')">Apply Now</button>
+        </div>
+
+        <div class="job">
+            <h3>☁️ Cloud Engineer</h3>
+            <p>Company: CloudTech</p>
+            <p>Location: Hyderabad</p>
+            <p>Salary: ₹6 - ₹10 LPA</p>
+            <button onclick="applyJob('Cloud Engineer')">Apply Now</button>
+        </div>
+
+        <div class="job">
+            <h3>🎨 UI/UX Designer</h3>
+            <p>Company: CreativeLabs</p>
+            <p>Location: Mumbai</p>
+            <p>Salary: ₹4 - ₹6 LPA</p>
+            <button onclick="applyJob('UI/UX Designer')">Apply Now</button>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About JobConnect</h2>
+    <p>JobConnect helps students and professionals discover career opportunities.</p>
+</section>
+
+<footer>
+    <p>© 2026 JobConnect | Web Technology Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
